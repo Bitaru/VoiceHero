@@ -1,0 +1,21 @@
+PODS:
+  - AudioKit (2.3)
+  - Chronos-Swift (0.2.2)
+  - PermissionScope (1.0.3)
+  - TuningFork (0.1.1):
+    - AudioKit (~> 2.3)
+    - Chronos-Swift (~> 0.2.2)
+
+DEPENDENCIES:
+  - PermissionScope (~> 1.0.2)
+  - TuningFork (~> 0.1.1)
+
+SPEC CHECKSUMS:
+  AudioKit: 393be71739265448039ef268f3582dee82783b0d
+  Chronos-Swift: 68a4fff66a41a1b698b30353d66bea412c5bba73
+  PermissionScope: 3ee3e8a4a962b7621400c136a63ae1e16ecf1718
+  TuningFork: 396d441b9e240c278f32d1b0736abb979e538789
+
+PODFILE CHECKSUM: 4342f0c29cc521ae36d829f8bf7e12db492c0070
+
+COCOAPODS: 1.1.0.rc.2

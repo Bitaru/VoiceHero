@@ -1,0 +1,3 @@
+rootProject.name = 'VoiceHero'
+
+include ':app'
