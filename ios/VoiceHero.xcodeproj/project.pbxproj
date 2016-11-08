@@ -23,6 +23,8 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		2E08952291290049BEFB08E5 /* Pods_VoiceHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DBC07CDFFFB67565D18E0 /* Pods_VoiceHero.framework */; };
+		75E3D2A51DAB91FC0070561D /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E3D2A41DAB91FC0070561D /* SoundPlayer.swift */; };
+		75E3D2B11DAB922E0070561D /* SoundPlayerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E3D2B01DAB922E0070561D /* SoundPlayerBridge.m */; };
 		75EDAA1C1DAA61C0005837E2 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EDAA1B1DAA61C0005837E2 /* SoundManager.swift */; };
 		75EDAA281DAA627B005837E2 /* SoundManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDAA271DAA627B005837E2 /* SoundManagerBridge.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -131,6 +133,8 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VoiceHero/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		5C92B1A0C2270C40277355BE /* Pods-VoiceHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceHero.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceHero/Pods-VoiceHero.release.xcconfig"; sourceTree = "<group>"; };
+		75E3D2A41DAB91FC0070561D /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		75E3D2B01DAB922E0070561D /* SoundPlayerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayerBridge.m; sourceTree = "<group>"; };
 		75EDAA1A1DAA61C0005837E2 /* VoiceHero-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceHero-Bridging-Header.h"; sourceTree = "<group>"; };
 		75EDAA1B1DAA61C0005837E2 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		75EDAA271DAA627B005837E2 /* SoundManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManagerBridge.m; sourceTree = "<group>"; };
@@ -259,6 +263,8 @@
 				75EDAA1B1DAA61C0005837E2 /* SoundManager.swift */,
 				75EDAA1A1DAA61C0005837E2 /* VoiceHero-Bridging-Header.h */,
 				75EDAA271DAA627B005837E2 /* SoundManagerBridge.m */,
+				75E3D2A41DAB91FC0070561D /* SoundPlayer.swift */,
+				75E3D2B01DAB922E0070561D /* SoundPlayerBridge.m */,
 			);
 			name = VoiceHero;
 			sourceTree = "<group>";
@@ -681,10 +687,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E3D2A51DAB91FC0070561D /* SoundPlayer.swift in Sources */,
 				75EDAA281DAA627B005837E2 /* SoundManagerBridge.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				75EDAA1C1DAA61C0005837E2 /* SoundManager.swift in Sources */,
+				75E3D2B11DAB922E0070561D /* SoundPlayerBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

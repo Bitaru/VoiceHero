@@ -14,13 +14,19 @@ import {
   DeviceEventEmitter
 } from 'react-native';
 
-DeviceEventEmitter.addListener('updateTuner', d => console.log(d));
+// DeviceEventEmitter.addListener('updateTuner', d => console.log(d));
 
 
 class VoiceHero extends Component {
   componentDidMount() {
      NativeModules.SoundManager.start();
+     NativeModules.SoundPlayer.play(10.0, 679.0, 0.2)
   }
+
+  componentWillUnmount(){
+    NativeModules.SoundManager.destroy();
+  }
+
   render() {
     return (
       <View style={styles.container}>
